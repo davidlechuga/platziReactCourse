@@ -1,5 +1,12 @@
+@import "./vars.scss";
+@import "./Media.scss";
+
 body {
-    margin: 0;
-    background-color: rebeccapurple;
-    color: white;
+  margin: 0;
+  font-family: $theme-font;
+  background: $main-color;
+}
+
+* {
+  box-sizing: border-box;
 }
